@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+
+import { PERSONS } from './components/persons'
+import { Header } from './components/Header'
+import { ContairnerDiv } from './components/ContainerDiv'
+import image from './components/asset/img/academy.png'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header>
+        <ContairnerDiv>
+          <img src={image} alt="" />
+        </ContairnerDiv>
+      </Header>
+      <h1>
+        <p>Rick-and-Morty</p>
+      </h1>
+      {/*  {console.log(data?.characters?.results)} */}
+
+      <PERSONS /* characters={data?.characters}  */ />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
