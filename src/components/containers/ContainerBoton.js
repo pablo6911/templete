@@ -5,6 +5,9 @@ export const ContainerBoton = styled.div`
   width: 20%;
   height: 0%;
   @media (max-width: 1000px) {
-    margin: 15% 0% 0 41%;
+    margin: 20% 0% 0 41%;
+  }
+  @media (max-width: 750px) {
+    margin: -65% 0% 0 37%;
   }
 `

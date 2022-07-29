@@ -15,7 +15,7 @@ export const ContairnerImg = styled.div`
       height: 300px;
     }
     width: 20%;
-    margin: -50% 0% 0 35%;
+    margin: -50% 0% 0 15%;
   }
   }
   @media ( max-width:750px) {
@@ -24,6 +24,6 @@ export const ContairnerImg = styled.div`
       height: 200px;
     }
     width: 20%;
-    margin: -60% 0% 0 35%;
+    margin: -160% 0% 0 30%;
   } 
 `
