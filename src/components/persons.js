@@ -7,8 +7,7 @@ import { useLazyQuery } from '@apollo/client'
 import { ALL_PERSONS } from './queris/queries'
 
 const PERSONS = ({ characters }) => {
-  const [getCharacters, { data, error, InMemoryCache }] =
-    useLazyQuery(ALL_PERSONS)
+  const [getCharacters, { data, error }] = useLazyQuery(ALL_PERSONS)
 
   //if (loading) return <p>Loading....</p>
   if (error) return <p>Error {error.message}</p>
@@ -19,7 +18,6 @@ const PERSONS = ({ characters }) => {
   todo = data?.characters?.results.filter((p) => p.id == aleatorio)
   console.log(todo)
   console.log(aleatorio)
-  console.log(InMemoryCache())
 
   if (characters === null) return null
   return !data ? (
