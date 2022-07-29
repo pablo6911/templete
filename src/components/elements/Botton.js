@@ -5,15 +5,8 @@ export const Button = styled.button`
   color: ${(props) => (props.primary ? 'white' : 'palevioletred')};
 
   font-size: 1em;
-  margin: 30em;
+  margin: 0%;
   padding: 0.25em 1em;
   border: 2px solid palevioletred;
   border-radius: 3px;
-
-  @media (max-width: 1000px) {
-    margin: 50% 0 0% 0;
-  }
-  @media (max-width: 375px) {
-    margin: 150% 0 0% 0;
-  }
 `

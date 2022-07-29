@@ -1,14 +1,13 @@
 import styled from 'styled-components'
 
 export const ContairnerImg = styled.div`
- 
-  margin: -5% 0% 0 8%;
+    margin: -30% 0% 0 8%;
   width: 20%;
   height: 0%;
 
   .image {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
   }
   @media (max-width: 1000px) {
     .image {
@@ -16,15 +15,15 @@ export const ContairnerImg = styled.div`
       height: 300px;
     }
     width: 20%;
-    margin: -60% 0% 0 30%;
+    margin: -50% 0% 0 35%;
   }
   }
-  @media ( max-width:500px) {
+  @media ( max-width:750px) {
     .image {
       width: 200px;
       height: 200px;
     }
     width: 20%;
-    margin: -80% 0% 0 20%;
-  }
+    margin: -60% 0% 0 35%;
+  } 
 `

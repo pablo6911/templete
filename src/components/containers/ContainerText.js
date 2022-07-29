@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContairnerText = styled.div`
-  margin: -60% 0% 0% 50%;
+  margin: 3% 0% 0% 70%;
   padding: 0;
   width: 50%;
   height: 0%;
@@ -9,10 +9,10 @@ export const ContairnerText = styled.div`
 
   @media (max-width: 1000px) {
     width: 50%;
-    margin: 2% 0% 0 25%;
+    margin: 50% 0% 0% 25%;
   }
-  @media (max-width: 37px) {
+  @media (max-width: 750px) {
     width: 50%;
-    margin: 2% 0% 0 25%;
+    margin: 70% 0% 0 25%;
   }
 `

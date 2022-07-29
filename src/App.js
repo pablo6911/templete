@@ -1,8 +1,8 @@
 import './App.css'
 
 import { PERSONS } from './components/persons'
-import { Header } from './components/Header'
-import { ContairnerDiv } from './components/ContainerDiv'
+import { Header } from './components/elements/Header'
+import { ContairnerDiv } from './components/containers/ContainerDiv'
 import image from './components/asset/img/academy.png'
 
 function App() {
