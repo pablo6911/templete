@@ -9,6 +9,24 @@ export const ContairnerImg = styled.div`
     width: 500px;
     height: 500px;
   }
+  @media (max-width: 1750px) {
+    .image {
+      width: 500px;
+      height: 500px;
+    }
+    width: 20%;
+    margin: -40% 0% 0 15%;
+  }
+  }
+  @media (max-width: 1250px) {
+    .image {
+      width: 300px;
+      height: 300px;
+    }
+    width: 20%;
+    margin: -40% 0% 0 15%;
+  }
+  }
   @media (max-width: 1000px) {
     .image {
       width: 300px;

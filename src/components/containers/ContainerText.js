@@ -7,6 +7,14 @@ export const ContairnerText = styled.div`
   height: 0%;
   text: center;
 
+  @media (max-width: 1750px) {
+    width: 30%;
+    margin: 6% 0% 0% 60%;
+  }
+  @media (max-width: 1250px) {
+    width: 30%;
+    margin: 6% 0% 0% 60%;
+  }
   @media (max-width: 1000px) {
     width: 50%;
     margin: 6% 0% 0% 50%;
